@@ -86,9 +86,9 @@ class CocktailDB:
         return cocktail_dict
 
 
-    def return_request_as_json(self):
+    def save_request_as_json(self):
         # Convert response to dictionary to parse
-        list_of_cocktails = json.loads(self.data.text)
+        list_of_cocktails = self.data.json()
 
         # Unpack nested list
         [list_of_cocktails] = list_of_cocktails.values()
@@ -104,7 +104,6 @@ class CocktailDB:
 
 
 def main():
-# Initialise the class
     cocktail = CocktailDB()
     print("Use Ctrl+C or type 'exit' to exit the program")
 
@@ -119,7 +118,7 @@ def main():
                 print("There has been an error with the server response")
                 break
 
-            cocktail.return_request_as_json()
+            cocktail.save_request_as_json()
 
 
 if __name__ == '__main__':
