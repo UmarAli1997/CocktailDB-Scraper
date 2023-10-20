@@ -1,7 +1,7 @@
 
 # CocktailDB Scraper
 
-This program allows the user to search CocktailDB by cocktail name and saves the result in a cocktail.json.
+This program allows the user to search CocktailDB by cocktail name and saves the result in a `cocktail.json`.
 
 The json contains attributes about the cocktail, such as the ID, name, instructions and ingredients required.
 
