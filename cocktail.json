@@ -1,0 +1,18 @@
+{
+    "id": "11002",
+    "name": "Long Island Tea",
+    "category": "Ordinary Drink",
+    "alcoholic": "Alcoholic",
+    "glass": "Highball glass",
+    "instructions": "Combine all ingredients (except cola) and pour over ice in a highball glass. Add the splash of cola for color. Decorate with a slice of lemon and serve.",
+    "thumbnail": "https://www.thecocktaildb.com/images/media/drink/nkwr4c1606770558.jpg",
+    "ingredients": {
+        "Vodka": "1/2 oz ",
+        "Light rum": "1/2 oz ",
+        "Gin": "1/2 oz ",
+        "Tequila": "1/2 oz ",
+        "Lemon": "Juice of 1/2 ",
+        "Coca-Cola": "1 splash "
+    },
+    "dateModified": "2015-08-18 14:54:32"
+}
